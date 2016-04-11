@@ -9,6 +9,9 @@ which don't quite fit in the main project.
   version.
 * `postgres.sh`: Installs [Postgres][], configured access to local addresses
   and creates a default user (`vagrant`, with a password of `vagrant`).
+* `mysql.sh`: Installs [MySQL][], configured access to local addresses
+  and creates a default user (`vagrant`, with a password of `vagrant`).
+
 
 ## Author
 
@@ -18,3 +21,4 @@ Copyright (c) 2015 Nick Charlton <nick@nickcharlton.net>.
 [chruby]: https://github.com/postmodern/chruby
 [ruby-install]: https://github.com/postmodern/ruby-install
 [Postgres]: http://www.postgresql.org
+[MySQL]: http://www.mysql.com
